@@ -1,13 +1,13 @@
-const navTemplate = `
+    const navTemplate = `
 <nav class="box-l padding-l direction-column box">
-    <a href="https://rnbw.dev" class="box direction-cl">
+    <a href="https://rnbw.dev" class="box gap-l">
         <svg-icon size="80">rnbw</svg-icon>
-        <p class="text-s">high-quality, functional</br>design-development tools</p>
+        <p class="text-s">high-quality,</br> functional design</br>and development tools</p>
     </a>
     <div class="gap-xl box justify-end">
         <a href="https://rnbw.dev/features" class="align-center direction-row">
             <svg-icon size="80">prdct</svg-icon>
-            <span>product</span>
+            <span>rnbw 0.1</span>
         </a>
         <a href="https://rnbw.dev/guides" class="align-center direction-row">
         <svg-icon size="80">usrgd</svg-icon>
