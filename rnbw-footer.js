@@ -10,7 +10,7 @@ const footerTemplate = `
         <div class="direction-row gap-s box">
             <a href="https://rnbw.dev/features">features</a><a
                 href="https://rnbw.dev/updates"
-                target="_blank">updates</a><a href="https://rnbw.dev/guides">guides</a><a href="https://renecss.org/">rene.css ↗</a><a href="http://svg-icon.xyz/">svg-icon.js ↗</a><a href="https://rfrncs.design/">rfrncs.design ↗</a>
+                target="_blank">updates</a><a href="https://rnbw.dev/guide">guide</a><a href="https://renecss.org/">rene.css ↗</a><a href="http://svg-icon.xyz/">svg-icon.js ↗</a><a href="https://rfrncs.design/">rfrncs.design ↗</a>
         </div>
         <div class="direction-row gap-s box">
             <a href="https://rnbw.dev/pricing">pricing</a><a href="https://rnbw.dev/about">about</a>
