@@ -3,14 +3,13 @@ const footerTemplate = `
     <div class="gap-s direction-column align-start box-l">
         <div class="gap-m direction-row align-start box">
             <svg-icon size="80">ovrvw</svg-icon>
-            <div class="space"></div>
             <div class="text-s">© <span id="year"></span> Rainbow Design, Ltd.</div>
-            <div class="space"></div>
+            <div class="direction-column align-center gap-m"><button onclick="toggleTheme()" class="icon-s radius-m border background-primary"></button><span id="theme-name"></span></div>
         </div>
         <div class="direction-row gap-s box">
             <a href="https://rnbw.dev/features">features</a><a
                 href="https://rnbw.dev/updates"
-                target="_blank">updates</a><a href="https://rnbw.dev/guide">guide</a><a href="https://renecss.org/">rene.css ↗</a><a href="http://svg-icon.xyz/">svg-icon.js ↗</a><a href="https://rfrncs.design/">rfrncs.design ↗</a>
+                target="_blank">updates</a><a href="https://guide.rnbw.dev/">guide</a><a href="https://renecss.org/">rene.css ↗</a><a href="http://svg-icon.xyz/">svg-icon.js ↗</a><a href="https://rfrncs.design/">rfrncs.design ↗</a>
         </div>
         <div class="direction-row gap-s box">
             <a href="https://rnbw.dev/pricing">pricing</a><a href="https://rnbw.dev/about">about</a>
@@ -36,7 +35,28 @@ class RnbwFooter extends HTMLElement {
     }
 }
 
-customElements.define('rnbw-footer', RnbwFooter);
+customElements.define("rnbw-footer", RnbwFooter);
 
 const currentYear = new Date().getFullYear();
-document.getElementById('year').innerHTML += currentYear;
+document.getElementById("year").innerHTML += currentYear;
+
+var body = document.querySelector('body');
+var themeName = document.querySelector('#theme-name');
+themeName.textContent = "system";
+
+function toggleTheme() {
+  switch (themeName.textContent) {
+    case "system":
+      body.setAttribute('data-theme', 'light');
+      themeName.textContent = 'light';
+      break;
+    case "light":
+      body.setAttribute('data-theme', 'dark');
+      themeName.textContent = 'dark';
+      break;
+    case "dark":
+      body.removeAttribute("data-theme");
+      themeName.textContent = 'system';
+      break;
+  }
+}
