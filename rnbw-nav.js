@@ -1,4 +1,4 @@
-    const navTemplate = `
+const navTemplate = `
 <nav class="box-l padding-l direction-column box">
     <a href="https://rnbw.dev" class="box gap-l">
         <svg-icon size="80">rnbw</svg-icon>
@@ -9,10 +9,8 @@
             <svg-icon size="80">prdct</svg-icon>
             <span>rnbw 0.1</span>
         </a>
-        <a href="https://rnbw.dev/guides" class="align-center direction-row">
+        <a href="https://guide.rnbw.dev/" class="align-center direction-row">
         <svg-icon size="80">usrgd</svg-icon>
-
-
             <span>guide</span>
         </a>
         <a href="https://rnbw.dev/community" class="align-center direction-row">
@@ -34,4 +32,4 @@ class RnbwNav extends HTMLElement {
     }
 }
 
-customElements.define('rnbw-nav', RnbwNav);
+customElements.define("rnbw-nav", RnbwNav);
