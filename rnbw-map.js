@@ -1,8 +1,8 @@
 const rnbwMapTemplate = `
                 <div
-                    class="direction-column box hidden-on-mobile border radius-s padding-m border gap-m"
+                    class="row box hidden-on-mobile border radius-s padding-m border gap-m"
                     style="min-height: 600px">
-                    <div id="anim4" class="direction-row panel justify-stretch gap-xl background-primary radius-s border">
+                    <div id="anim4" class="column panel justify-stretch gap-xl background-primary radius-s border">
                         <div>
                             <div class="border-bottom padding-m">
                                 <a>
@@ -55,7 +55,7 @@ const rnbwMapTemplate = `
                             </div>
                         </div>
                     </div>
-                    <div class="box direction-row gap-m">
+                    <div class="box column gap-m">
                     <svg-icon class="opacity-xl" src="https://rnbw.company/images/shapes.svg"></svg-icon>
                         <a id="anim2" href="https://guide.rnbw.dev/quick-start#elements">
                             <span class="text-l"><span class="padding-xs background-secondary radius-s border">1.6</span> Stage</span>
@@ -95,7 +95,7 @@ const rnbwMapTemplate = `
                                 </a>
                             </div>
                         </div>
-                        <div id="anim3" class=" box direction-column border-left padding-l background-primary radius-s border">
+                        <div id="anim3" class=" box row border-left padding-l background-primary radius-s border">
                             <a href="https://guide.rnbw.dev/quick-start#code">
                                 <span class="text-l"><span class="padding-xs background-secondary radius-s border">1.5</span> Code</span>
                                 <p class="text-s">
