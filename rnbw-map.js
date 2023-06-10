@@ -13,11 +13,10 @@ const rnbwMapTemplate = `
                             <div class="border-bottom padding-m">
                                 <a href="https://guide.rnbw.dev/quick-start#workspaces">
                                     <span class="text-l">
-                                        <span class="padding-xs background-secondary radius-s border">1.3</span> Workspaces/Projects/Files
+                                        <span class="padding-xs background-secondary radius-s border">1.3</span> Files
                                     </span>
                                     <p class="text-s">
-                                        View and toggle workspaces, projects and
-                                        their files.
+                                        View and toggle files and subfolders.
                                     </p>
                                 </a>
                             </div>
@@ -64,8 +63,8 @@ const rnbwMapTemplate = `
                                 composition.
                             </p>
                         </a>
-                        <div id="anim1" class="border radius-s box-s align-stretch" style="align-self: center;">
-                            <div class="padding-l border-bottom">
+                        <div id="anim1" class="row border radius-s box-s align-stretch" style="align-self: center;">
+                            <div class="box-l padding-l border-bottom">
                                 <a href="https://guide.rnbw.dev/quick-start#jumpstart">
                                     <span class="text-l"><span class="padding-xs background-secondary radius-s border">1.1</span> Jumpstart</span>
                                     <p class="text-s">
@@ -74,7 +73,7 @@ const rnbwMapTemplate = `
                                     </p>
                                 </a>
                             </div>
-                            <div class="padding-l border-bottom">
+                            <div class="box-l padding-l border-bottom">
                                 <a href="https://guide.rnbw.dev/quick-start#do-something">
                                     <span class="text-l"><span class="padding-xs background-secondary radius-s border">1.7</span> Do something</span>
                                     <p class="text-s">
@@ -83,7 +82,7 @@ const rnbwMapTemplate = `
                                     </p>
                                 </a>
                             </div>
-                            <div class="padding-l">
+                            <div class="box-l padding-l">
                                 <a href="https://guide.rnbw.dev/quick-start#add-something">
                                     <span class="text-l">
                                         <span class="padding-xs background-secondary radius-s border">1.8</span> Add something
