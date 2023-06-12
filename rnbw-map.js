@@ -24,7 +24,7 @@ const rnbwMapTemplate = `
                             <div class="border-bottom padding-m box">
                                 <a href="https://guide.rnbw.dev/quick-start#elements">
                                     <span class="text-l">
-                                        <span class="padding-xs background-secondary radius-s border">1.6</span> Elements
+                                        <span class="padding-xs background-secondary radius-s border">1.4</span> Elements
                                     </span>
                                     <p class="text-s">
                                         View and control objects in a
@@ -57,14 +57,14 @@ const rnbwMapTemplate = `
                     <div class="box column gap-m">
                     <svg-icon class="opacity-xl" src="https://rnbw.company/images/shapes.svg"></svg-icon>
                         <a id="anim2" href="https://guide.rnbw.dev/quick-start#elements">
-                            <span class="text-l"><span class="padding-xs background-secondary radius-s border">1.6</span> Stage</span>
+                            <span class="text-l"><span class="padding-xs background-secondary radius-s border">1.5</span> Stage</span>
                             <p class="text-s">
                                 Visualize and manipulate objects and their
                                 composition.
                             </p>
                         </a>
                         <div id="anim1" class="row border radius-s box-s align-stretch" style="align-self: center;">
-                            <div class="box-l padding-l border-bottom">
+                            <div class="box-l padding-m border-bottom">
                                 <a href="https://guide.rnbw.dev/quick-start#jumpstart">
                                     <span class="text-l"><span class="padding-xs background-secondary radius-s border">1.1</span> Jumpstart</span>
                                     <p class="text-s">
@@ -73,7 +73,18 @@ const rnbwMapTemplate = `
                                     </p>
                                 </a>
                             </div>
-                            <div class="box-l padding-l border-bottom">
+                             <div class="border-bottom box-l padding-m">
+                                <a href="https://guide.rnbw.dev/quick-start#add-something">
+                                    <span class="text-l">
+                                        <span class="padding-xs background-secondary radius-s border">1.6</span> Add something
+                                    </span>
+                                    <p class="text-s">
+                                        Add different things in different
+                                        contexts.
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="box-l padding-m border-bottom">
                                 <a href="https://guide.rnbw.dev/quick-start#do-something">
                                     <span class="text-l"><span class="padding-xs background-secondary radius-s border">1.7</span> Do something</span>
                                     <p class="text-s">
@@ -82,21 +93,18 @@ const rnbwMapTemplate = `
                                     </p>
                                 </a>
                             </div>
-                            <div class="box-l padding-l">
-                                <a href="https://guide.rnbw.dev/quick-start#add-something">
-                                    <span class="text-l">
-                                        <span class="padding-xs background-secondary radius-s border">1.8</span> Add something
-                                    </span>
+                            <div class="box-l padding-m">
+                                <a href="https://guide.rnbw.dev/quick-start#ask-something">
+                                    <span class="text-l"><span class="padding-xs background-secondary radius-s border">1.8</span> Ask something</span>
                                     <p class="text-s">
-                                        Add different things in different
-                                        contexts.
+                                        let AI do the work and unleash your creativity.
                                     </p>
                                 </a>
                             </div>
                         </div>
                         <div id="anim3" class=" box row border-left padding-l background-primary radius-s border">
                             <a href="https://guide.rnbw.dev/quick-start#code">
-                                <span class="text-l"><span class="padding-xs background-secondary radius-s border">1.5</span> Code</span>
+                                <span class="text-l"><span class="padding-xs background-secondary radius-s border">1.9</span> Code</span>
                                 <p class="text-s">
                                     Edit your code. The real thing.
                                 </p>
