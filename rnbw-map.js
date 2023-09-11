@@ -1,6 +1,6 @@
 const rnbwMapTemplate = `
-                                <div class="row box hidden-on-mobile border radius-s border" style="min-height: 600px">
-                    <div id="anim4" class="column panel justify-stretch gap-xl border-right">
+                                <div class="row box border radius-s border" style="min-height: 600px">
+                    <div id="anim4" class="hidden-on-mobile column  panel justify-stretch gap-xl border-right">
                         <div>
                             <div class="border-bottom padding-m">
                                 <a>
@@ -101,7 +101,7 @@ const rnbwMapTemplate = `
                             </div>
                         </div>
                     </div>
-          <div id="anim3" class="box border-left padding-m border-left">
+          <div id="anim3" class="hidden-on-mobile box border-left padding-m border-left">
                             <a href="https://guide.rnbw.dev/quick-start#code">
                                 <span class="text-l"><span class="padding-xs background-secondary radius-s border">1.9</span> Code</span>
                                 <p class="text-s">
