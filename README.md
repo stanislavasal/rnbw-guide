@@ -16,4 +16,4 @@ to dive into rnbw, visit [rnbw.dev](https://rnbw.dev) and explore its potential.
 
 ## support
 
-need help or want to be a part of our vibrant community? join us on our [discord](https://discord.com/invite/hycxz8tjkd) server or check out the guide here.
+need help or want to be a part of our vibrant community? join us on our [discord](https://discord.gg/5CEf42mF) server or check out the guide here.
