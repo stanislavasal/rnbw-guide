@@ -10,6 +10,7 @@
     <meta name="description" content="quick start" />
     <link rel="icon" href="https://rnbw.company/images/favicon.png" />
     <link rel="stylesheet" href="https://unpkg.com/renecss/dist/rene.min.css" />
+    <link rel="stylesheet" href="style.css" />
     <script
       type="module"
       src="https://unpkg.com/@rainbowapp/svg-icon.js/dist/svg-icon.min.js"
@@ -1673,6 +1674,7 @@
           </div>
         </div>
       </div>
+
       <div class="page" id="code">
         <h3>1.9 code</h3>
         <div class="row gap-column-xl">
@@ -1691,9 +1693,10 @@
             </p>
           </div>
         </div>
+
         <div
           class="row radius-s background-primary border background-primary"
-          style="min-height: 600px"
+          id="code-panel"
         >
           <div class="panel justify-stretch border-right hidden-on-mobile">
             <div class="panel">
@@ -1909,8 +1912,7 @@
           <div class="box-s padding-m border-left box">
             <code style="word-break: break-all">
               const tryMeBtn = document.getElementById("try_me");<br />
-              tryMeBtn.addEventListener("click", <br />
-              () => {
+              tryMeBtn.addEventListener("click", () => {
               <br />
               window.location.href = "https://rnbw.dev"; } <br />);
             </code>
@@ -1955,6 +1957,7 @@
           <div class="box opacity-m"></div>
         </div>
       </div>
+
       <div class="page">
         <h3>congratulations!</h3>
         <div class="row gap-xl">

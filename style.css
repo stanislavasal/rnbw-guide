@@ -1,0 +1,9 @@
+#code-panel {
+  min-height: 600px;
+}
+
+@media (max-width: 768px) {
+  #code-panel {
+    min-height: 300px;
+  }
+}
