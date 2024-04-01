@@ -10,7 +10,7 @@ const rnbwMapTemplate = `
           <span class="text-l">
             <span class="padding-xs background-secondary radius-s border">
               1.2
-            </span>{" "}
+            </span>
             Navigate
           </span>
           <p class="text-s">Navigate anywhere.</p>
@@ -21,10 +21,10 @@ const rnbwMapTemplate = `
           <span class="text-l">
             <span class="padding-xs background-secondary radius-s border">
               1.3
-            </span>{" "}
+            </span>
             Files
           </span>
-          <p class="text-s">View and toggle files and subfolders.</p>
+          <p class="text-s">Navigate files and subfolders.</p>
         </a>
       </div>
 
@@ -33,7 +33,7 @@ const rnbwMapTemplate = `
           <span class="text-l">
             <span class="padding-xs background-secondary radius-s border">
               1.4
-            </span>{" "}
+            </span>
             Elements
           </span>
           <p class="text-s">
@@ -64,7 +64,7 @@ const rnbwMapTemplate = `
     ></svg-icon>
     <a id="anim2" href="https://guide.rnbw.dev/quick-start#elements">
       <span class="text-l">
-        <span class="padding-xs background-secondary radius-s border">1.5</span>{" "}
+        <span class="padding-xs background-secondary radius-s border">1.5</span>
         Stage
       </span>
       <p class="text-s">
@@ -81,7 +81,7 @@ const rnbwMapTemplate = `
           <span class="text-l">
             <span class="padding-xs background-secondary radius-s border">
               1.1
-            </span>{" "}
+            </span>
             Jumpstart
           </span>
           <p class="text-s">
@@ -94,7 +94,7 @@ const rnbwMapTemplate = `
           <span class="text-l">
             <span class="padding-xs background-secondary radius-s border">
               1.6
-            </span>{" "}
+            </span>
             Add something
           </span>
           <p class="text-s">Add different things in different contexts.</p>
@@ -105,7 +105,7 @@ const rnbwMapTemplate = `
           <span class="text-l">
             <span class="padding-xs background-secondary radius-s border">
               1.7
-            </span>{" "}
+            </span>
             Do something
           </span>
           <p class="text-s">All of the actions offered by rnbw.</p>
@@ -116,7 +116,7 @@ const rnbwMapTemplate = `
           <span class="text-l">
             <span class="padding-xs background-secondary radius-s border">
               1.8
-            </span>{" "}
+            </span>
             Ask something
           </span>
           <p class="text-s">let AI do the work and unleash your creativity.</p>
@@ -130,7 +130,7 @@ const rnbwMapTemplate = `
   >
     <a href="https://guide.rnbw.dev/quick-start#code">
       <span class="text-l">
-        <span class="padding-xs background-secondary radius-s border">1.9</span>{" "}
+        <span class="padding-xs background-secondary radius-s border">1.9</span>
         Code
       </span>
       <p class="text-s">Edit your code. The real thing.</p>
