@@ -6,21 +6,10 @@ const rnbwMapTemplate = `
   >
     <div>
       <div class="border-bottom padding-m">
-        <a>
-          <span class="text-l">
-            <span class="padding-xs background-secondary radius-s border">
-              1.2
-            </span>
-            Navigate
-          </span>
-          <p class="text-s">Navigate anywhere.</p>
-        </a>
-      </div>
-      <div class="border-bottom padding-m">
         <a href="https://guide.rnbw.dev/quick-start#workspaces">
           <span class="text-l">
             <span class="padding-xs background-secondary radius-s border">
-              1.3
+              1.2
             </span>
             Files
           </span>
@@ -32,7 +21,7 @@ const rnbwMapTemplate = `
         <a href="https://guide.rnbw.dev/quick-start#elements">
           <span class="text-l">
             <span class="padding-xs background-secondary radius-s border">
-              1.4
+              1.3
             </span>
             Elements
           </span>
@@ -93,7 +82,7 @@ const rnbwMapTemplate = `
         <a href="https://guide.rnbw.dev/quick-start#add-something">
           <span class="text-l">
             <span class="padding-xs background-secondary radius-s border">
-              1.6
+              1.5
             </span>
             Add something
           </span>
@@ -104,7 +93,7 @@ const rnbwMapTemplate = `
         <a href="https://guide.rnbw.dev/quick-start#do-something">
           <span class="text-l">
             <span class="padding-xs background-secondary radius-s border">
-              1.7
+              1.6
             </span>
             Do something
           </span>
@@ -115,7 +104,7 @@ const rnbwMapTemplate = `
         <a href="https://guide.rnbw.dev/quick-start#ask-something">
           <span class="text-l">
             <span class="padding-xs background-secondary radius-s border">
-              1.8
+              1.7
             </span>
             Ask something
           </span>
@@ -130,7 +119,7 @@ const rnbwMapTemplate = `
   >
     <a href="https://guide.rnbw.dev/quick-start#code">
       <span class="text-l">
-        <span class="padding-xs background-secondary radius-s border">1.9</span>
+        <span class="padding-xs background-secondary radius-s border">1.8</span>
         Code
       </span>
       <p class="text-s">Edit your code. The real thing.</p>
